@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/milkId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/sugerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suger"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/sopId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sop"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/showButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="show"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/resultViewId"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="results"/>
+
+</LinearLayout>
